@@ -24,51 +24,50 @@ namespace Pratica3
                     "Digite: 1 - Inserir \n" +
                     "Digite: 2 - Pesquisar\n" +
                     "Digite: 3 - Imprimir Lista\n" +
-                    "Digite: 4 na chave para mudar opção\n" +
+                    "Digite: 4 - Editar\n" +
                     "Digite: 5 - Sair\n" +
+                    "Digite: 6 na chave - Para mudar opção\n" +
                     "-------------------------------"
                     );
 
-                option = Convert.ToInt32(Console.ReadLine());
+                option = LerInt("Opção: ");
                 Console.WriteLine();
 
                 while (option == 1)
                 {
                     Console.Write("Digite um nome: ");
                     nome = Console.ReadLine();
-                    Console.Write("Digite um número como chave: ");
-                    c = Convert.ToInt32(Console.ReadLine());
+                    c = LerInt("Digite um número como chave: ");
 
-                        if (c == 4)
+                    if (c == 6)
+                    {
+                        option = 0;
+                    }
+                    NoLista n = l.Pesquisar(c);
+                    if (n == null)
+                    {
+                        if (c == 6)
                         {
                             option = 0;
                         }
-                        NoLista n = l.Pesquisar(c);
-                        if (n == null)
-                        {
-                            if (c == 4)
-                            {
-                                option = 0;
-                            }
-                            else
-                            {
-                            l.Inserir(new NoLista(c, nome));
-                            }
-                        }
                         else
                         {
-                            Console.WriteLine();
-                            Console.Write("Valor já existente");
-                            Console.WriteLine();
+                            l.Inserir(new NoLista(c, nome));
                         }
+                    }
+                    else
+                    {
+                        Console.WriteLine();
+                        Console.Write("Valor já existente");
                         Console.WriteLine();
                     }
-                    while (option == 2)
-                    {
-                        
-                        c = Convert.ToInt32(Console.ReadLine());
                     Console.WriteLine();
-                    if (c == 4)
+                }
+                while (option == 2)
+                {
+                    c = LerInt("Digite a chave para pesquisar (ou 6 para cancelar): ");
+                    Console.WriteLine();
+                    if (c == 6)
                     {
                         option = 0;
                     }
@@ -77,26 +76,57 @@ namespace Pratica3
                         NoLista n = l.Pesquisar(c);
                         if (n == null)
                             Console.WriteLine("Valor não encontrado!");
-                        else
-                            Console.WriteLine("Achou: " + n.chave);
-                        Console.WriteLine();
                     }
-                    }
-                    while (option == 3)
-                    {
+                }
+
+                while (option == 3)
+                {
                     Console.WriteLine("-------------------------------");
                     Console.WriteLine("Lista:");
-                        l.Imprimir();
-                        option = 0;
+                    l.Imprimir();
+                    option = 0;
                     Console.WriteLine("-------------------------------");
                     Console.WriteLine();
-                    }
-                    while (option == 5)
-                    {
-                        Environment.Exit(0);
-                    }
-                option = 0;
                 }
+
+                // Nova opção 4 - Editar
+                while (option == 4)
+                {
+                    c = LerInt("Digite a chave a ser editada (ou 6 para cancelar): ");
+                    Console.WriteLine();
+                    if (c == 6)
+                    {
+                        option = 0;
+                    }
+                    else
+                    {
+                        Console.Write("Digite o novo nome: ");
+                        string novoNome = Console.ReadLine();
+                        l.Editar(c, novoNome);
+                        option = 0;
+                    }
+                }
+
+                while (option == 5)
+                {
+                    Environment.Exit(0);
+                }
+                option = 0;
+            }
+        }
+
+        // Lê um inteiro do Console, exibindo mensagem de erro e repetindo até entrada válida.
+        private static int LerInt(string prompt)
+        {
+            int valor;
+            while (true)
+            {
+                Console.Write(prompt);
+                string entrada = Console.ReadLine();
+                if (int.TryParse(entrada, out valor))
+                    return valor;
+                Console.WriteLine("Entrada inválida: por favor digite um número inteiro.");
             }
         }
     }
+}

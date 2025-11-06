@@ -22,3 +22,11 @@ C:\Users\Victor\Documents\GitHub\Prática3 - Lista Encadeada\Pratica3\obj\Debug\
 C:\Users\Victor\Documents\GitHub\Prática3 - Lista Encadeada\Pratica3\obj\Debug\Pratica3.csproj.CoreCompileInputs.cache
 C:\Users\Victor\Documents\GitHub\Prática3 - Lista Encadeada\Pratica3\obj\Debug\Pratica3.exe
 C:\Users\Victor\Documents\GitHub\Prática3 - Lista Encadeada\Pratica3\obj\Debug\Pratica3.pdb
+C:\Users\Victor\Documents\GitHub\Lista-Encadeada-Console\Pratica3\bin\Debug\Pratica3.exe.config
+C:\Users\Victor\Documents\GitHub\Lista-Encadeada-Console\Pratica3\bin\Debug\Pratica3.exe
+C:\Users\Victor\Documents\GitHub\Lista-Encadeada-Console\Pratica3\bin\Debug\Pratica3.pdb
+C:\Users\Victor\Documents\GitHub\Lista-Encadeada-Console\Pratica3\obj\Debug\Pratica3.csproj.AssemblyReference.cache
+C:\Users\Victor\Documents\GitHub\Lista-Encadeada-Console\Pratica3\obj\Debug\Pratica3.exe.config
+C:\Users\Victor\Documents\GitHub\Lista-Encadeada-Console\Pratica3\obj\Debug\Pratica3.csproj.CoreCompileInputs.cache
+C:\Users\Victor\Documents\GitHub\Lista-Encadeada-Console\Pratica3\obj\Debug\Pratica3.exe
+C:\Users\Victor\Documents\GitHub\Lista-Encadeada-Console\Pratica3\obj\Debug\Pratica3.pdb

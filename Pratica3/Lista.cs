@@ -55,7 +55,7 @@ namespace TiposAbstratosDeDados
             }
 
             // Solicita a chave do nó a ser removido
-            Console.Write("Digite a chave para excluir (ou 4 -> cancelar) : ");
+            Console.Write("Digite a chave para excluir (ou 6 -> cancelar) : ");
             cod = Convert.ToInt32(Console.ReadLine());
             // Remove o nó com a chave especificada, se não for -1
             if (cod != -1)
@@ -73,7 +73,7 @@ namespace TiposAbstratosDeDados
             }
         }
 
-        // Pesquisa um nó com a chave especificada
+        // Pesquisa um nó com a chave especificada e exibe nome e chave se encontrado
         public NoLista Pesquisar(int c)
         {
             NoLista aux = prim; // Inicia a busca a partir do primeiro nó
@@ -81,7 +81,35 @@ namespace TiposAbstratosDeDados
             {
                 aux = aux.prox;
             }
+            // Se encontrou, exibe Nome e Chave
+            if (aux != null)
+            {
+                Console.WriteLine(aux.nome + " - " + aux.chave);
+            }
             return aux; // Retorna o nó encontrado ou null se não encontrado
+        }
+
+        // Edita o nome do nó com a chave especificada
+        // Retorna true se a edição for bem-sucedida, false se a chave não for encontrada
+        public bool Editar(int c, string novoNome)
+        {
+            NoLista aux = prim; // Inicia a busca a partir do primeiro nó
+            while (aux != null && aux.chave != c) // Percorre a lista até encontrar o nó ou chegar ao fim
+            {
+                aux = aux.prox;
+            }
+
+            if (aux != null) // nó encontrado
+            {
+                string nomeAntigo = aux.nome;
+                aux.nome = novoNome;
+                Console.WriteLine($"Chave {aux.chave} atualizada: nome '{nomeAntigo}' -> '{aux.nome}'.");
+                return true;
+            }
+
+            // nó não encontrado
+            Console.WriteLine("Valor não encontrado!");
+            return false;
         }
 
         // Remove um nó com a chave especificada
@@ -101,6 +129,10 @@ namespace TiposAbstratosDeDados
                     prim = aux.prox; // atualiza o primeiro
                 if (aux == ult) // é o último
                     ult = ant; // atualiza o último
+
+                // Mensagem informando chave e nome excluídos
+                Console.WriteLine($"Chave {aux.chave} e nome {aux.nome} excluídos.");
+
                 aux.prox = null; // desconecta o nó da lista
                 return true; // remoção bem-sucedida
             }
