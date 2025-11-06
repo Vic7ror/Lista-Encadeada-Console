@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Victor\\Documents\\GitHub\\Lista-Encadeada-Console\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8F42CB65-678D-494D-8CD2-7A5E41967F35}|Pratica3\\Pratica3.csproj|c:\\users\\victor\\documents\\github\\lista-encadeada-console\\pratica3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F42CB65-678D-494D-8CD2-7A5E41967F35}|Pratica3\\Pratica3.csproj|solutionrelative:pratica3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8F42CB65-678D-494D-8CD2-7A5E41967F35}|Pratica3\\Pratica3.csproj|c:\\users\\victor\\documents\\github\\lista-encadeada-console\\pratica3\\lista.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8F42CB65-678D-494D-8CD2-7A5E41967F35}|Pratica3\\Pratica3.csproj|solutionrelative:pratica3\\lista.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F42CB65-678D-494D-8CD2-7A5E41967F35}|Pratica3\\Pratica3.csproj|c:\\users\\victor\\documents\\github\\lista-encadeada-console\\pratica3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F42CB65-678D-494D-8CD2-7A5E41967F35}|Pratica3\\Pratica3.csproj|solutionrelative:pratica3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,28 +26,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Lista.cs",
               "DocumentMoniker": "C:\\Users\\Victor\\Documents\\GitHub\\Lista-Encadeada-Console\\Pratica3\\Lista.cs",
               "RelativeDocumentMoniker": "Pratica3\\Lista.cs",
               "ToolTip": "C:\\Users\\Victor\\Documents\\GitHub\\Lista-Encadeada-Console\\Pratica3\\Lista.cs",
               "RelativeToolTip": "Pratica3\\Lista.cs",
-              "ViewState": "AgIAAFUAAAAAAAAAAAAIwFgAAABMAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAA5wDwAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-06T20:13:58.696Z",
+              "WhenOpened": "2025-11-06T20:33:11.005Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Victor\\Documents\\GitHub\\Lista-Encadeada-Console\\Pratica3\\Program.cs",
               "RelativeDocumentMoniker": "Pratica3\\Program.cs",
               "ToolTip": "C:\\Users\\Victor\\Documents\\GitHub\\Lista-Encadeada-Console\\Pratica3\\Program.cs",
               "RelativeToolTip": "Pratica3\\Program.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABwAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-06T20:13:59.234Z",
+              "WhenOpened": "2025-11-06T20:33:07.087Z",
               "EditorCaption": ""
             }
           ]

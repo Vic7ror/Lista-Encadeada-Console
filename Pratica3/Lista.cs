@@ -40,6 +40,9 @@ namespace TiposAbstratosDeDados
             else
                 ult.prox = item;
             ult = item;
+
+            // Mensagem informando sucesso da inserção
+            Console.WriteLine($"Inserido: {item.nome} - {item.chave}");
         }
 
         // Imprime a lista e remove um nó com a chave especificada
