@@ -18,4 +18,23 @@ Linguagem: C#
 ----------------------------------------------------------------------------------------------
 
 # Prints das funções em execução:
+
+## 1.Tela Inicial de opções para a lista.
 ![Tela Inicial](/Prints/TelaInicial.png)
+
+## 1.Função de inserir item na lista.
+![Tela Inicial](/Prints/Inserir.png)
+
+## 2.Função de Pesquisar item na lista.
+![Tela Inicial](/Prints/Pesquisar.png)
+
+## 3.Função de exibir a lista.
+![Tela Inicial](/Prints/Listar.png)
+
+## 4.Função de Editar item na lista.
+![Tela Inicial](/Prints/Editar.png)
+
+
+
+
+
