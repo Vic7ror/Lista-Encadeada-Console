@@ -34,6 +34,9 @@ Linguagem: C#
 ## 4.Função de Editar item na lista.
 ![Tela Inicial](/Prints/Editar.png)
 
+## 5.Função de Excluir item na lista.
+![Tela Inicial](/Prints/Excluir.png)
+
 
 
 
