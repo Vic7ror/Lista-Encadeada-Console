@@ -1,5 +1,5 @@
 # ATIVIDADE: LISTA ENCADEADA (LINKEDLIST)
-
+Problema: 
 1. Crie um menu para o programa com as opções:
 1) Inserir
 2) Pesquisar
@@ -14,4 +14,4 @@ também um nome.
 4. Na pesquisa, se a chave procurada for encontrada, o programa deverá imprimir o
 nome correspondente. Dê ao usuário a opção de remover o nó da lista.
 ----------------------------------------------------------------------------------------------
-Lenguage: C#
+Linguagem: C#
