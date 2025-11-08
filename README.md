@@ -20,24 +20,25 @@ Linguagem: C#
 # Prints das funções em execução:
 
 ## 1.Tela Inicial de opções para a lista.
-![Tela Inicial](/Prints/TelaInicial.png)
+![Tela Inicial](/PrintsGifs/TelaInicial.png)
 
 ## 1.Função de inserir item na lista.
-![Tela Inicial](/Prints/Inserir.png)
+![Tela Inicial](/PrintsGifs/Inserir.png)
 
 ## 2.Função de Pesquisar item na lista.
 ![Tela Inicial](/Prints/Pesquisar.png)
 
 ## 3.Função de exibir a lista.
-![Tela Inicial](/Prints/Listar.png)
+![Tela Inicial](/PrintsGifs/Listar.png)
 
 ## 4.Função de Editar item na lista.
-![Tela Inicial](/Prints/Editar.png)
+![Tela Inicial](/PrintsGifs/Editar.png)
 
 ## 5.Função de Excluir item na lista.
-![Tela Inicial](/Prints/Excluir.png)
+![Tela Inicial](/PrintsGifs/Excluir.png)
 
-
+## 6.Gif do aplicativo em funcionamento.
+![Tela Inicial](/PrintsGifs/GifListaEncadeada.gif)
 
 
 
