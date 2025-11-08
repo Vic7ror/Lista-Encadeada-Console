@@ -29,7 +29,7 @@ Linguagem: C#
 ![Tela Inicial](/PrintsGifs/Inserir.png)
 
 3. Função de Pesquisar item na lista.
-![Tela Inicial](/Prints/Pesquisar.png)
+![Tela Inicial](/PrintsGifs/Pesquisar.png)
 
 4. Função de exibir a lista.
 ![Tela Inicial](/PrintsGifs/Listar.png)
