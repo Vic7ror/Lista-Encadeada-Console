@@ -15,7 +15,8 @@ também um nome.
 nome correspondente. Dê ao usuário a opção de remover o nó da lista.
 ----------------------------------------------------------------------------------------------
 
-Linguagem: C#
+- Aplicativos usados: Visual Studio
+- Linguagem: C#
 
 ----------------------------------------------------------------------------------------------
 
