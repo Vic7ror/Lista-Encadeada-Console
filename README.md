@@ -24,25 +24,25 @@ nome correspondente. Dê ao usuário a opção de remover o nó da lista.
 # Prints das funções em execução:
 
 1. Tela Inicial de opções para a lista.
-![Tela Inicial](/PrintsGifs/TelaInicial.png)
+ - ![Tela Inicial](/PrintsGifs/TelaInicial.png)
 
 2. Função de inserir item na lista.
-![Tela Inicial](/PrintsGifs/Inserir.png)
+ - ![Tela Inicial](/PrintsGifs/Inserir.png)
 
 3. Função de Pesquisar item na lista.
-![Tela Inicial](/PrintsGifs/Pesquisar.png)
+ - ![Tela Inicial](/PrintsGifs/Pesquisar.png)
 
 4. Função de exibir a lista.
-![Tela Inicial](/PrintsGifs/Listar.png)
+ - ![Tela Inicial](/PrintsGifs/Listar.png)
 
 5. Função de Editar item na lista.
-![Tela Inicial](/PrintsGifs/Editar.png)
+ - ![Tela Inicial](/PrintsGifs/Editar.png)
 
 6. Função de Excluir item na lista.
-![Tela Inicial](/PrintsGifs/Excluir.png)
+ - ![Tela Inicial](/PrintsGifs/Excluir.png)
 
 7. Gif do aplicativo em funcionamento.
-![Tela Inicial](/PrintsGifs/GifListaEncadeada.gif)
+ - ![Tela Inicial](/PrintsGifs/GifListaEncadeada.gif)
 
 
 
